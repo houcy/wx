@@ -1,0 +1,49 @@
+page {
+  background-color: #fff;
+}
+
+.userinfo {
+  margin-left: 145px;
+  margin-top: 115px;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.wx_h {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 4px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.weui-btn {
+  position: relative;
+  display: block;
+  margin-top: 130px;
+  padding-top: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8D1CB7;
+  color: #FFFFFF;
+}
+
+.other-button-hover{
+ background-color: #731496; 
+}
+
+.line {
+  margin-top: 10px;
+  width: 99%;
+  height: 1rpx;
+  background: #731496;
+}

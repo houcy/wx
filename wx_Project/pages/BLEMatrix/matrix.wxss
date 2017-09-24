@@ -1,0 +1,82 @@
+/**index.wxss**/
+.wx_h {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  margin-left: 4px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.line {
+  margin-top: 10px;
+  width: 99%;
+  height: 1rpx;
+  background: #731496;
+}
+
+.pad{
+  height: 5px;
+}
+.padbut{
+  height: 15px;
+}
+
+.pad1{
+  width:41.5px;
+  height:41.5px;
+  margin-left: 4.8px;
+  border-radius:8px;
+  display: inline-flex;
+ }
+
+  .textpad{
+   font-size: 18px;
+   width: 25px;
+ }
+
+ .radiopad{
+   margin-left: 13px;
+ }
+
+ .padbk{
+   background-color: #404040;
+ }
+
+ .bt-bk{
+  background-color: #f008f0;
+}
+
+ .bt-red-bk{
+  background-color: #ed4d46;
+}
+ .bt-yellow-bk{
+  background-color: #f5ad32;
+}
+ .bt-blue-bk{
+  background-color: #2bbcb0;
+}
+ .bt-cyan-bk{
+  background-color: #56c7df;
+}
+ .bt-green-bk{
+  background-color: #2692ca;
+}
+ .bt-purple-bk{
+  background-color: #8D1CB7;
+}
+.bt-no-bk{
+  background-color: #fff;
+}
+
+.weui-btn{
+  margin-left:2px;
+  margin-right:2px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8D1CB7;
+  color: #FFFFFF;
+}
+
+.other-button-hover{
+ background-color: #731496; 
+}

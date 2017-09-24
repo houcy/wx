@@ -1,0 +1,53 @@
+page {
+  background-color: #f0f0f0;
+}
+
+.userinfo {
+  margin-left: 145px;
+  margin-top: 115px;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.wx_h {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 4px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.wx_kh {
+  height: 150px;
+}
+
+.wx_c {
+  height: 44px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dAdAdA;
+}
+
+.wx_t {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.weui-swi {
+  margin-top: 6px;
+  padding-left: 190px;
+}
+
+.line {
+  margin-top: 10px;
+  width: 99%;
+  height: 1rpx;
+  background: #731496;
+}

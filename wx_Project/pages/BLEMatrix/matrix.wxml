@@ -1,0 +1,18 @@
+<!--.wxml-->
+<view class="wx_h">
+  <text>控制mCookie-Dot-Matrix</text>
+  <view class="line"></view>
+</view>
+<view class="padbk">
+<view class="pad"></view>
+<view  class="pad1 {{item.bk?sscolor[item.color]:'bt-no-bk'}}" wx:for="{{objectArray}}" bindtap="listClick" id="{{item.id}}" wx:key="{{item.id}}"></view>
+</view>
+<view class="pad"></view>
+<radio-group  bindchange="radioChange">
+    <label class="radio"  wx:for="{{items}}" wx:key="{{item.id}}">
+        <radio class="radiopad" color="{{radiocolor[item.name]}}" value="{{item.name}}" checked="{{item.checked}}"/>
+        <text class="textpad">{{item.value}}</text>
+    </label>
+</radio-group>
+<view class="padbut"></view>
+<button class="weui-btn" hover-class="other-button-hover" bindtap="clear">重画</button>

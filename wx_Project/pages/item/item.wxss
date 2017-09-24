@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid #eee;
+  cursor: pointer;
+}
+
+.poster {
+  width: 126rpx;
+  height: 126rpx;
+  margin-right: 55rpx;
+  margin-top: 5px;
+}
+
+.meta {
+  flex: 1;
+}
+
+.sub-title {
+  display: block;
+  margin-bottom: 15rpx;
+}
+
+.title {
+  font-size: 32rpx;
+}
+
+.sub-title {
+  font-size: 22rpx;
+  color: #c0c0c0;
+}
+
+.artists {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.rating text{
+  display: inline-block;
+  width: 40rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(75, 9, 99, 0.8);
+  color: #fff;
+  padding: 10rpx;
+  border-radius: 20rpx;
+}

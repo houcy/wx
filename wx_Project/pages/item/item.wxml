@@ -1,0 +1,27 @@
+<import src="../item/item.wxml"/> 
+
+<template name="projectItem">
+  <view class="item" bindtap="listClick" id="{{index}}" >
+    <image class="poster" src="{{logo}}" />
+    <view class="meta">
+      <text class="title">{{title}}</text>
+      <text class="sub-title">{{description}}</text>
+      <text class="artists">{{device}}</text>
+    </view>
+    <!--
+   <view class="rating">
+      <text>{{use}}</text>
+   </view>
+    -->
+  </view>
+</template>
+
+<template is="projectItem" data="{{...penetrate}}"/>
+<template is="projectItem" data="{{...matrix}}"/>
+<template is="projectItem" data="{{...finger}}"/>
+<template is="projectItem" data="{{...shock}}"/>
+<template is="projectItem" data="{{...angle}}"/>
+<template is="projectItem" data="{{...light}}"/>
+<template is="projectItem" data="{{...servo}}"/>
+<template is="projectItem" data="{{...ibeacon}}"/>
+

@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+
+<view class="wx_h">
+  <text>控制mCookie Servo</text>
+  <view class="line"></view>
+</view>
+<view class="userinfo">
+  <image class="userinfo-avatar" src="../images/ylb.jpg" background-size="cover"></image>
+</view>
+<view class="wx_kh">
+</view>
+<view class="wx_c">
+<slider class="weui-sli" activeColor="#8D1CB7" step="5" min="0" max="180" show-value bindchange="servo"/>
+</view>

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="userinfo">
+  <image class="userinfo-avatar" src="../images/ylb.jpg" background-size="cover"></image>
+</view>
+
+<view class="one-ui">
+<text class="uuis-text">{{motto}}</text>
+<text class="uuis-textmini">{{mini}}</text>
+<text class="uuis-textL">{{rssival}}</text>
+<text class="uuis-textLL meter-textLL">{{dist}}</text>
+<text class="uuis-textL prox-textL">{{proxval}}</text>
+<text class="uuis-textmini">{{rssi}}</text>
+<text class="uuis-textmini meter-text">{{meter}}</text>
+<text class="uuis-textmini prox-text">{{prox}}</text>
+</view>
+
+<view >
+<button  class="weui-btn" hover-class="other-button-hover" bindtap="sendData">设备查询</button>
+</view>

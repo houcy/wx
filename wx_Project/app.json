@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/item/item",
+    "pages/ibeacon/ibeacon",
+    "pages/BLEString/ble",
+    "pages/BLEFinger/finger",
+    "pages/BLEShake/shake",
+    "pages/BLELight/light",
+    "pages/BLEServo/servo",
+    "pages/BLEMatrix/matrix",
+    "pages/BLEAngle/angle"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wasdylb",
+    "navigationBarTextStyle": "light"
+  }
+}

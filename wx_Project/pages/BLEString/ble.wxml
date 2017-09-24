@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+<view class="wx_h">
+  <text>字符串测试</text>
+</view>
+<view class="section wx_title">
+  <text>发送数据</text>
+</view>
+<view class="btn-area">
+  <input class="wx_sendtext" placeholder="请输入..." bindinput="bindKeyInput" />
+  <button class="weui-btn" hover-class="other-button-hover" bindtap="sendData">数据发送</button>
+</view>
+<view class="section wx_title">
+  <text>接收数据</text>
+</view>
+<view class="btn-area">
+  <view class="wx_rectext">
+    <scroll-view scroll-y style="height: 350px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <text>{{motto}}</text>
+    </scroll-view>
+  </view>
+</view>

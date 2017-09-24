@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+
+<view class="wx_h">
+  <text>mCookie-Light控制屏幕亮度</text>
+  <view class="line"></view>
+</view>
+<view class="userinfo">
+  <image class="userinfo-avatar" src="../images/ylb.jpg" background-size="cover"></image>
+</view>
+<view class="btn-area">
+  <button class="weui-btn" hover-class="other-button-hover" bindtap="sendData">提取亮度</button>
+</view>

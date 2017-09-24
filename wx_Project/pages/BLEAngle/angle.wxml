@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+
+<view class="wx_h">
+  <text>抬起手机开关灯-mCookie</text>
+  <view class="line"></view>
+</view>
+<view class="userinfo">
+  <image class="userinfo-avatar" src="../images/ylb.jpg" background-size="cover"></image>
+</view>
+<view class="wx_kh">
+</view>
+<view class="wx_c">
+<text class="wx_t">打开抬起</text>
+<switch class="weui-swi" color="#8D1CB7" bindchange="switchLed"/>
+</view>

@@ -1,0 +1,47 @@
+page{
+    background-color:#F0F0F0;
+}
+
+.wx_h{
+  padding-top: 10px;
+  margin-left: 4px;
+  font-size:19px; 
+  text-align: center;
+}
+
+.wx_title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 4px;
+  font-size:16px; 
+}
+
+.wx_sendtext{
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 15px;
+  font-size:14px; 
+  height: 50px;
+  background-color:#FFFFFF;
+  color: #a050a1;
+}
+.wx_rectext{
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size:14px; 
+  background-color:#FFFFFF;
+  color: #a050a1;
+}
+
+.weui-btn{
+  margin-left:2px;
+  margin-right:2px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8D1CB7;
+  color: #FFFFFF;
+}
+
+.other-button-hover{
+ background-color: #731496; 
+}
