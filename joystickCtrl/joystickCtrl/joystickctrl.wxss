@@ -1,0 +1,34 @@
+page{
+  background-color: #312f31;
+}
+
+.relative {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.picpos{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.pic_background_left {
+  top: 160px;
+  left: 60px;
+}
+
+.pic_background_right{
+  top: 160px;
+  right: 60px;
+}
+
+/* .pic_joy_left {
+  top: 220px;
+  left: 120px;
+}
+
+.pic_joy_right{
+  top: 220px;
+  right: 120px;
+} */

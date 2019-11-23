@@ -1,0 +1,10 @@
+<view class="relative">
+  <!-- 左背景图片 -->
+  <image style="width: 180px; height: 180px;" class="picpos pic_background_left" src="../images/double_vertical_background.png"></image>
+  <!-- 左摇杆图片 -->
+  <image style="width: 60px; height: 60px;left:{{leftLooksL}}px;top:{{topLooksL}}px;" bindtouchend='ImageReturn' bindtouchmove='ImageTouchMove' class="picpos" src="../images/white_ball.png" bindtap="ImageTouch"></image>
+  <!-- 右背景图片 -->
+  <image style="width: 180px; height: 180px;" class="picpos pic_background_right" src="../images/double_horizantal_background.png"></image>
+    <!-- 左摇杆图片 -->
+  <image style="width: 60px; height: 60px;right:{{rightLooksR}}px;top:{{topLooksR}}px;" bindtouchend='ImageReturn' bindtouchmove='ImageTouchMove' class="picpos pic_joy_right" src="../images/white_ball.png" bindtap="ImageTouch"></image>
+</view>

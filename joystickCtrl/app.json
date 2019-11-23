@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "joystickCtrl/joystickctrl"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#312f31",
+    "navigationBarTitleText": "wasdylb",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
